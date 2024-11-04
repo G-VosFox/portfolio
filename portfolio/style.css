@@ -173,10 +173,6 @@ button{
     justify-self: center;
 }
 
-.loneP{
-    margin-left: 50px;
-}
-
 #split{
     margin-top: 70px;
     margin-left: 100px;
@@ -195,6 +191,23 @@ button{
     margin-top: 350px;
     position: absolute;
     justify-content: center;
+}
+
+#yeettext{
+    padding-top: 400px;
+    margin-left: -1070px;
+    font-family: merrisans;
+    font-size: 15px;
+    color: black;
+}
+
+#yeettext h3{
+    font-size: 30px;
+    justify-self: center;
+}
+
+.loneP{
+    margin-left: 50px;
 }
 
 #yeetEmUp p{
