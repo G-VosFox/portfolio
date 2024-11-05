@@ -139,18 +139,25 @@ button{
 
 /*project page*/
 
-.project{
-    width: 1300px;
-    height: 500px;
+.banners{
+    width: 1000px;
     border-radius: 50px;
-    justify-self: center;
-    background-color: #EEEEEE;
 }
 
-.banners{
-    width: 1300px;
-    border-radius: 50px;
-    position: absolute;
+#beatOne{
+    width: 1000px;
+    clip-path: polygon(100% 20%, 0% 80%, 0% 0%, 100% 0%);
+    display: flex;
+    justify-self: center;
+    margin-top: 100px;
+}
+
+#beatTwo{
+    width: 1000px;
+    clip-path: polygon(100% 100%, 0 100%, 0 80%, 100% 20%);
+    display: flex;
+    justify-self: center;
+    margin-top: -500px;
 }
 
 #numbers{
@@ -160,81 +167,6 @@ button{
     margin-left: 30px;
     margin-top: 0;
     position: absolute;
-}
-
-#numtext{
-    padding-top: 710px;
-    font-family: merrisans;
-    font-size: 15px;
-}
-
-#numtext h3{
-    font-size: 30px;
-    justify-self: center;
-}
-
-#split{
-    margin-top: 70px;
-    margin-left: 100px;
-}
-
-#keypad{
-    margin-left: 700px;
-    margin-top: -246px;
-}
-
-#yeetEmUp{
-    font-family: pixely;
-    color: white;
-    font-size: 60px;
-    margin-left: 1100px;
-    margin-top: 350px;
-    position: absolute;
-    justify-content: center;
-}
-
-#yeettext{
-    padding-top: 400px;
-    margin-left: -1070px;
-    font-family: merrisans;
-    font-size: 15px;
-    color: black;
-}
-
-#yeettext h3{
-    font-size: 30px;
-    justify-self: center;
-}
-
-.loneP{
-    margin-left: 50px;
-}
-
-#yeetEmUp p{
-    margin: 0;
-}
-
-#beatOne{
-    margin-top: 100px;
-    clip-path: polygon(100% 20%, 0% 80%, 0% 0%, 100% 0%);
-}
-
-#beatOne:hover{
-    clip-path: none;
-    margin-bottom: 450px;
-    height: 1500px;
-}
-
-#beatTwo{
-    margin-top: -450px;
-    clip-path: polygon(100% 100%, 0 100%, 0 80%, 100% 20%);
-    z-index: 1;
-}
-
-#beatTwo:hover{
-    clip-path: none;
-    margin-top: 0;
-    height: 1500px;
 }
 
 footer{
