@@ -176,3 +176,34 @@ footer{
     margin-top: 800px;
     justify-self: center;
 }
+
+/*numbers*/
+
+.thiccness{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+#numtext{
+    margin-top: 50px;
+    font-family: merrisans;
+    font-size: 15px;
+}
+
+#numtext h3{
+    font-size: 60px;
+    font-family: pixely;
+    justify-self: center;
+}
+
+#split{
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+#keypad{
+    margin-left: 700px;
+    margin-top: -246px;
+}
+
+
