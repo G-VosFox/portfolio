@@ -190,7 +190,7 @@ footer{
     font-size: 15px;
 }
 
-#banner{
+.banner{
     width: 100%;
 }
 
@@ -235,4 +235,29 @@ footer{
 .subText{
     font-size: 10px;
 }
+
+/*yeet em up*/
+
+#yeetEmUp{
+    font-family: pixely;
+    color: white;
+    font-size: 60px;
+    justify-content: center;
+}
+
+#yeetText{
+    font-family: merrisans;
+    font-size: 15px;
+    color: black;
+}
+
+#yeetText h3{
+    font-size: 30px;
+    justify-self: center;
+}
+
+#yeetEmUp p{
+    margin: 0;
+}
+
 
